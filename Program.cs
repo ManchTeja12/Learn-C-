@@ -17,6 +17,7 @@
             test.Increment(ref a);
             test.Ref();
             list.array();
+            Dict.dictionary();
         }
     }
 }

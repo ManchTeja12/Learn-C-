@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Solution Items/">
+    <File Path="Dictionary.cs" />
     <File Path="List.cs" />
     <File Path="Refernece.cs" />
   </Folder>
