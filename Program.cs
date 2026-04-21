@@ -14,6 +14,8 @@
             int b = 5;
             int result = a + b;
             Console.WriteLine(result);
+            test.Increment(ref a);
+            test.Ref();
         }
     }
 }
