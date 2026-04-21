@@ -16,6 +16,7 @@
             Console.WriteLine(result);
             test.Increment(ref a);
             test.Ref();
+            list.array();
         }
     }
 }
