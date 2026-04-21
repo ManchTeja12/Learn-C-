@@ -3,6 +3,7 @@
     <File Path="Dictionary.cs" />
     <File Path="LINQ.cs" />
     <File Path="List.cs" />
+    <File Path="properties.cs" />
     <File Path="Refernece.cs" />
   </Folder>
   <Project Path="C Sharp.csproj" />

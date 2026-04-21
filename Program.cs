@@ -19,6 +19,7 @@
             list.array();
             Dict.dictionary();
             linq.grade();
+            print.example();
         }
     }
 }
