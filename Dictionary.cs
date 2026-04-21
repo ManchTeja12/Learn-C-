@@ -19,6 +19,7 @@ public class Dict
         {
             Console.WriteLine($"Student id:{item.Key},Student Name:{item.Value}");
         }
+        linq.grade();
         
      
     }

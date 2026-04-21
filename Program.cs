@@ -18,6 +18,7 @@
             test.Ref();
             list.array();
             Dict.dictionary();
+            linq.grade();
         }
     }
 }
