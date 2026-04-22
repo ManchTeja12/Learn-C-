@@ -16,10 +16,11 @@
             Console.WriteLine(result);
             test.Increment(ref a);
             test.Ref();
-            //list.array();
-            //Dict.dictionary();
+            list.array();
+            Dict.dictionary();
             Linq.grade();
-            //print.example();
+            print.example();
+            Input.main();
         }
     }
 }

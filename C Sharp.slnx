@@ -1,7 +1,9 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path="BankAccount.cs" />
+    <File Path="Constructors.cs" />
     <File Path="Dictionary.cs" />
+    <File Path="Interface.cs" />
     <File Path="LINQ.cs" />
     <File Path="List.cs" />
     <File Path="properties.cs" />
