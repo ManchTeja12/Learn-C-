@@ -2,12 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices.Java;
+using System.Security.Cryptography.X509Certificates;
 
-public class Student
+public class Student : IComparable<Student>
 {
     public int Mark;
     public string Name;
     public string Department;
+
+    //icomparable implementation
+    public int CompareTo(Student other)
+    {
+        return this.Mark.CompareTo(other.Mark);
+    }
 }
 
 public class Linq
@@ -77,6 +84,15 @@ public class Linq
         {
             Console.WriteLine($"{first.Department}");
         }
-        
+
+        //icomparable
+        Console.WriteLine("\n students sorted by marks");
+        students.Sort();
+        foreach (var item in students) 
+        {
+            Console.WriteLine($"{item.Name}-{item.Mark}");
+        }
+
+
     }
 }
